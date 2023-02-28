@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>online-zoo</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./media.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+  </style>
+
+</head>
+
+<body class="wrapper">
+
+  <header class="header">
+    <div class="content">
+      <h1>Online Zoo</h1>
+      <section class="header__logo">
+        <a href="./index.html">
+          <h2>zoo</h2>
+          <p>online</p>
+        </a>
+      </section>
+      <nav class="header__nav ">
+        <!-- header__nav_disabled -->
+        <ul>
+          <li class="nav__link">
+            <a class="header__nav_active" href="./index.html">
+              About
+            </a>
+          </li>
+          <li class="nav__link">
+            <a href="./pages/video-block/pandas/index.html">
+              Zoos
+            </a>
+          </li>
+          <li class="nav__link">
+            <a href="./pages/map-block/index.html">
+              Map
+            </a>
+          </li>
+          <li class="nav__link">
+            <a href="#footer-anchor">
+              Contact&#160Us
+            </a>
+          </li>
+          <li class="nav__link">
+            <a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">
+              Design
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__switcher-block">
+        <input class="header__switcher" id="switch1" type="checkbox">
+        <label class="header__switcher_for" for="switch1"></label>
+
+        <div class="header__burger"><span></span></div>
+
+      </div>
+
+      <!-- header__burger_active -->
+    </div>
+  </header>
+
+  <main class="main">
+
+    <article class="welcome-block">
+      <div class="content">
+        <section class="welcome__info-block">
+          <h2>
+            Watch your favorite animal online
+          </h2>
+          <form action="./pages/video-block/pandas/index.html">
+            <button class="button">
+              <img src="assets/comman/play-icon.png" alt="">
+              <p> watch online</p>
+            </button>
+          </form>
+        </section>
+        <section class="welcome__social">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/burhanovgd/">
+                <img src="./assets/social_net/instagram.png" alt="instagram">
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/">
+                <img src="./assets/social_net/twitter.png" alt="twitter">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/">
+                <img src="./assets/social_net/youtube.png" alt="youtube">
+              </a>
+            </li>
+            <li>
+              <a href="https://vk.com/burhanovgd">
+                <img src="./assets/social_net/vk.png" alt="vk">
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <section class="welcome-carousel-wrapper">
+        <div class="welcome-carousel-line"></div>
+        <section class="carousel welcom-carousel">
+          <div class="welcome-carousel__dot welcome-carousel__dot1">
+            <img src="./assets/welcom_carousel/main-dot.svg" alt="dot">
+          </div>
+          <div class="welcome-carousel__dot welcome-carousel__dot2">
+            <img src="./assets/welcom_carousel/main-dot.svg" alt="dot">
+          </div>
+          <div class="welcome-carousel__dot welcome-carousel__dot3">
+            <img src="./assets/welcom_carousel/main-dot.svg" alt="dot">
+          </div>
+          <div class="welcome-carousel__dot welcome-carousel__dot4">
+            <img src="./assets/welcom_carousel/main-dot.svg" alt="dot">
+          </div>
+          <div class="welcom-carousel__items-view carousel__items-view">
+            <div class="welcom-carousel__items-line carousel__items-line">
+
+              <div class="welcom-carousel__item carousel__item">
+                <img src="./assets/welcom_carousel/eagle.png" alt="">
+                <div class="welcom-carousel__item_hover welcom-hover">
+                  <p class="welcom-hover__info">
+                    Panda’s name is Bei Bei. He
+                    is 2 years old. Bei Bei is from China. He loves bamboos.
+                  </p>
+
+                  <div class="welcom-hover__icons">
+
+                    <form class="welcom-hover__watch-online" action="./pages/video-block/pandas/index.html">
+                      <button class="welcom-hover__btn">
+                        <div class="welcom-hover__watch-online_image">
+                          <img src="./assets/comman/hover-icons/watch-icon.png" alt="watch-icon">
+                        </div>
+                        <p>watch&#160;online</p>
+                      </button>
+                    </form>
+
+                    <form class="welcom-hover__donate" action="./index.html">
+                      <button class="welcom-hover__btn">
+                        <div class="welcom-hover__donate_image">
+                          <img src="./assets/comman/hover-icons/donate-icon.png" alt="donate-icon">
+                        </div>
+                        <p>donate</p>
+                      </button>
+                    </form>
+
+                  </div>
+                </div>
+              </div>
+              <div class="welcom-carousel__item carousel__item welcom-carousel__item_active">
+                <img src="./assets/welcom_carousel/panda.png" alt="">
+                <div class="welcom-carousel__item_hover welcom-hover">
+                  <p class="welcom-hover__info">
+                    Panda’s name is Bei Bei. He
+                    is 2 years old. Bei Bei is from China. He loves bamboos.
+                  </p>
+
+                  <div class="welcom-hover__icons">
+
+                    <form class="welcom-hover__watch-online" action="./pages/video-block/pandas/index.html">
+                      <button class="welcom-hover__btn">
+                        <div class="welcom-hover__watch-online_image">
+                          <img src="./assets/comman/hover-icons/watch-icon.png" alt="watch-icon">
+                        </div>
+                        <p>watch&#160;online</p>
+                      </button>
+                    </form>
+
+                    <form class="welcom-hover__donate" action="./index.html">
+                      <button class="welcom-hover__btn">
+                        <div class="welcom-hover__donate_image">
+                          <img src="./assets/comman/hover-icons/donate-icon.png" alt="donate-icon">
+                        </div>
+                        <p>donate</p>
+                      </button>
+                    </form>
+
+                  </div>
+                </div>
+              </div>
+              <div class="welcom-carousel__item carousel__item">
+                <img src="./assets/welcom_carousel/gorilla.png" alt="">
+                <div class="welcom-carousel__item_hover welcom-hover">
+                  <p class="welcom-hover__info">
+                    Panda’s name is Bei Bei. He
+                    is 2 years old. Bei Bei is from China. He loves bamboos.
+                  </p>
+
+                  <div class="welcom-hover__icons">
+
+                    <form class="welcom-hover__watch-online" action="./pages/video-block/pandas/index.html">
+                      <button class="welcom-hover__btn">
+                        <div class="welcom-hover__watch-online_image">
+                          <img src="./assets/comman/hover-icons/watch-icon.png" alt="watch-icon">
+                        </div>
+                        <p>watch&#160;online</p>
+                      </button>
+                    </form>
+
+                    <form class="welcom-hover__donate" action="./index.html">
+                      <button class="welcom-hover__btn">
+                        <div class="welcom-hover__donate_image">
+                          <img src="./assets/comman/hover-icons/donate-icon.png" alt="donate-icon">
+                        </div>
+                        <p>donate</p>
+                      </button>
+                    </form>
+
+                  </div>
+                </div>
+              </div>
+              <div class="welcom-carousel__item carousel__item">
+                <img src="./assets/welcom_carousel/crocodile.png" alt="">
+                <div class="welcom-carousel__item_hover welcom-hover">
+                  <p class="welcom-hover__info">
+                    Panda’s name is Bei Bei. He
+                    is 2 years old. Bei Bei is from China. He loves bamboos.
+                  </p>
+
+                  <div class="welcom-hover__icons">
+
+                    <form class="welcom-hover__watch-online" action="./pages/video-block/pandas/index.html">
+                      <button class="welcom-hover__btn">
+                        <div class="welcom-hover__watch-online_image">
+                          <img src="./assets/comman/hover-icons/watch-icon.png" alt="watch-icon">
+                        </div>
+                        <p>watch&#160;online</p>
+                      </button>
+                    </form>
+
+                    <form class="welcom-hover__donate" action="./index.html">
+                      <button class="welcom-hover__btn">
+                        <div class="welcom-hover__donate_image">
+                          <img src="./assets/comman/hover-icons/donate-icon.png" alt="donate-icon">
+                        </div>
+                        <p>donate</p>
+                      </button>
+                    </form>
+
+                  </div>
+                </div>
+              </div>
+              <div class="welcom-carousel__item carousel__item">
+                <img src="./assets/welcom_carousel/fox.png" alt="">
+                <div class="welcom-carousel__item_hover welcom-hover">
+                  <p class="welcom-hover__info">
+                    Panda’s name is Bei Bei. He
+                    is 2 years old. Bei Bei is from China. He loves bamboos.
+                  </p>
+
+                  <div class="welcom-hover__icons">
+
+                    <form class="welcom-hover__watch-online" action="./pages/video-block/pandas/index.html">
+                      <button class="welcom-hover__btn">
+                        <div class="welcom-hover__watch-online_image">
+                          <img src="./assets/comman/hover-icons/watch-icon.png" alt="watch-icon">
+                        </div>
+                        <p>watch&#160;online</p>
+                      </button>
+                    </form>
+
+                    <form class="welcom-hover__donate" action="./index.html">
+                      <button class="welcom-hover__btn">
+                        <div class="welcom-hover__donate_image">
+                          <img src="./assets/comman/hover-icons/donate-icon.png" alt="donate-icon">
+                        </div>
+                        <p>donate</p>
+                      </button>
+                    </form>
+
+                  </div>
+                </div>
+              </div>
+              <div class="welcom-carousel__item carousel__item">
+                <img src="./assets/welcom_carousel/sloth.png" alt="">
+                <div class="welcom-carousel__item_hover welcom-hover">
+                  <p class="welcom-hover__info">
+                    Panda’s name is Bei Bei. He
+                    is 2 years old. Bei Bei is from China. He loves bamboos.
+                  </p>
+
+                  <div class="welcom-hover__icons">
+
+                    <form class="welcom-hover__watch-online" action="./pages/video-block/pandas/index.html">
+                      <button class="welcom-hover__btn">
+                        <div class="welcom-hover__watch-online_image">
+                          <img src="./assets/comman/hover-icons/watch-icon.png" alt="watch-icon">
+                        </div>
+                        <p>watch&#160;online</p>
+                      </button>
+                    </form>
+
+                    <form class="welcom-hover__donate" action="./index.html">
+                      <button class="welcom-hover__btn">
+                        <div class="welcom-hover__donate_image">
+                          <img src="./assets/comman/hover-icons/donate-icon.png" alt="donate-icon">
+                        </div>
+                        <p>donate</p>
+                      </button>
+                    </form>
+
+                  </div>
+                </div>
+              </div>
+              <div class="welcom-carousel__item carousel__item">
+                <img src="./assets/welcom_carousel/elephant.png" alt="">
+                <div class="welcom-carousel__item_hover welcom-hover">
+                  <p class="welcom-hover__info">
+                    Panda’s name is Bei Bei. He
+                    is 2 years old. Bei Bei is from China. He loves bamboos.
+                  </p>
+
+                  <div class="welcom-hover__icons">
+
+                    <form class="welcom-hover__watch-online" action="./pages/video-block/pandas/index.html">
+                      <button class="welcom-hover__btn">
+                        <div class="welcom-hover__watch-online_image">
+                          <img src="./assets/comman/hover-icons/watch-icon.png" alt="watch-icon">
+                        </div>
+                        <p>watch&#160;online</p>
+                      </button>
+                    </form>
+
+                    <form class="welcom-hover__donate" action="./index.html">
+                      <button class="welcom-hover__btn">
+                        <div class="welcom-hover__donate_image">
+                          <img src="./assets/comman/hover-icons/donate-icon.png" alt="donate-icon">
+                        </div>
+                        <p>donate</p>
+                      </button>
+                    </form>
+
+                  </div>
+                </div>
+              </div>
+              <div class="welcom-carousel__item carousel__item">
+                <img src="./assets/welcom_carousel/leopard.png" alt="">
+                <div class="welcom-carousel__item_hover welcom-hover">
+                  <p class="welcom-hover__info">
+                    Panda’s name is Bei Bei. He
+                    is 2 years old. Bei Bei is from China. He loves bamboos.
+                  </p>
+
+                  <div class="welcom-hover__icons">
+
+                    <form class="welcom-hover__watch-online" action="./pages/video-block/pandas/index.html">
+                      <button class="welcom-hover__btn">
+                        <div class="welcom-hover__watch-online_image">
+                          <img src="./assets/comman/hover-icons/watch-icon.png" alt="watch-icon">
+                        </div>
+                        <p>watch&#160;online</p>
+                      </button>
+                    </form>
+
+                    <form class="welcom-hover__donate" action="./index.html">
+                      <button class="welcom-hover__btn">
+                        <div class="welcom-hover__donate_image">
+                          <img src="./assets/comman/hover-icons/donate-icon.png" alt="donate-icon">
+                        </div>
+                        <p>donate</p>
+                      </button>
+                    </form>
+
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+          <div class="welcom__rage-input_wrapper">
+            <div class="welcom__rageNumber carousel__rageNumber">
+              <p class="welcom__rageNumber_current carousel__rageNumber_current">0</p>
+              /
+              <p class="welcom__rageNumber_inAll carousel__rageNumber_inAll">9</p>
+            </div>
+
+            <input class="welcom__rage-input carousel__rage-input" type="range" min="1" max="8" step="1" value="2">
+          </div>
+        </section>
+      </section>
+    </article>
+
+    <article class="info-block">
+      <div class="content">
+        <div class="info-block__name_wrapper">
+          <h2 class="info-block__name">How it works?</h2>
+        </div>
+        <section class="carousel info-block-carousel">
+          <div class="carousel__withBtns">
+            <div class="info-block-carousel__control info-block-carousel__leftControl">
+              <div class="carousel__arrow carousel__leftArrow info-block-carousel__arrow">
+                <img src="assets/comman/left-arrow.png" alt="left-arrow">
+              </div>
+            </div>
+
+            <div class="info-block-carousel__items-view carousel__items-view">
+              <div class="info-block-carousel__items-line carousel__items-line">
+
+                <div class="info-block-carousel__item carousel__item">
+                  <div class="info-block-carousel__inner-text">
+                    <p>
+                      As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on
+                      precious species and their habitat, and we are determined to assist in all aspects, including
+                      providing veterinary support and raising much&#8209;needed emergency funds. Zoo Online saves
+                      wildlife
+                      and
+                      inspires everyone to make conservation a priority in their lives. Animals have the right to a
+                      pain-free and happy life. They have equal claim to the resources of this planet, and deserve a
+                      life
+                      of dignity and compassion.As a voice for wildlife, we are devastated by the impact of the 2020
+                      Australian bushfires on precious species and their habitat.
+                    </p>
+                  </div>
+                  <img class="info-block-carousel__item__dear" src="assets/info-block_carousel/deer.png" alt="deer">
+                  <img class="info-block-carousel__item__bigdear" src="./assets/info-block_carousel/dearBIG.png"
+                    alt="deer">
+                  <img class="info-block-carousel__item__mobileDear" src="./assets/info-block_carousel/dearMobile.png"
+                    alt="deer">
+                </div>
+                <div class="info-block-carousel__item carousel__item">
+                  <div class="info-block-carousel__inner-text">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eius minus fugit, aliquam ex
+                      minima, ipsam quisquam ad accusantium praesentium, neque facilis temporibus. Ipsa voluptatum natus
+                      molestias unde optio atque?
+                    </p>
+                  </div>
+                  <img src="assets/info-block_carousel/panda.png" alt="deer">
+                </div>
+                <div class="info-block-carousel__item carousel__item">
+                  <div class="info-block-carousel__inner-text">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, voluptates eaque corporis incidunt
+                      nesciunt ut voluptatum nulla, odit eligendi magnam doloremque repellat, repudiandae voluptatem
+                      error
+                      consectetur! Autem aspernatur quibusdam molestias?
+                    </p>
+                  </div>
+                  <img src="assets/info-block_carousel/monkeys.png" alt="deer">
+                </div>
+                <div class="info-block-carousel__item carousel__item">
+                  <div class="info-block-carousel__inner-text">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, voluptates eaque corporis incidunt
+                      nesciunt ut voluptatum nulla, odit eligendi magnam doloremque repellat, repudiandae voluptatem
+                      error
+                      consectetur! Autem aspernatur quibusdam molestias?
+                    </p>
+                  </div>
+                  <img src="assets/info-block_carousel/gorillas.png" alt="deer">
+                </div>
+
+              </div>
+            </div>
+
+            <div class="info-block-carousel__control info-block-carousel__rightControl">
+              <div class="carousel__arrow carousel__rightArrow info-block-carousel__arrow">
+                <img src="assets/comman/right-arrow.png" alt="right-arrow">
+              </div>
+            </div>
+          </div>
+
+          <div class="info-block__rageNumber carousel__rageNumber">
+            <p class="info-block__rageNumber_current carousel__rageNumber_current">0</p>
+            /
+            <p class="info-block__rageNumber_inAll carousel__rageNumber_inAll">9</p>
+          </div>
+
+          <input class="info-block__rage-input carousel__rage-input" type="range" min="1" max="4" step="1" value="1">
+        </section>
+        <form action="./pages/video-block/pandas/index.html">
+          <button class="info-block__watch-btn button">
+            <img src="assets/comman/play-icon.png" alt="">
+            <p> watch online</p>
+          </button>
+        </form>
+
+
+      </div>
+    </article>
+
+    <article class="about-us-block gray-background">
+      <div class="content">
+        <section class="about-us__item">
+          <div>
+            <img src="assets/card/inspire.png" alt="">
+            <h3>What&#160inspiring&#160us?</h3>
+          </div>
+          <p>
+            As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on
+            precious species and their habitat, and we are determined to assist in all aspects.
+          </p>
+        </section>
+
+        <section class="about-us__item">
+          <div>
+            <img src="assets/card/mission.png" alt="">
+            <h3>Our&#160mission</h3>
+          </div>
+          <p>
+            Zoo Online saves wildlife and inspires everyone to make conservation a priority in their lives.
+          </p>
+        </section>
+
+        <section class="about-us__item">
+          <div>
+            <img src="assets/card/believe.png" alt="">
+            <h3>What&#160we&#160believe&#160in?</h3>
+          </div>
+          <p>
+            Animals have the right to a pain-free and happy life. They have equal claim to the resources of
+            this planet, and deserve a life of dignity and compassion.
+          </p>
+        </section>
+      </div>
+    </article>
+
+    <article class="pets__block">
+      <div class="content">
+        <h2>Pets in Zoo</h2>
+        <section class="carousel pets-carousel">
+          <div class="carousel__withBtns">
+            <div class="pets-carousel__control pets-carousel__leftControl">
+              <div class="carousel__arrow carousel__leftArrow">
+                <img src="assets/comman/left-arrow.png" alt="left-arrow">
+              </div>
+            </div>
+            <div class="pets-carousel__items-view carousel__items-view">
+              <div class="pets-carousel__items-line carousel__items-line">
+                <div class="pets-carousel__item carousel__item carousel__item_hover_active">
+                  <img class="carousel__item_image" src="./assets/pets-carousel/panda.png" alt="panda">
+                  <div class="pets-carousel__item_hover pets-hover">
+                    <div class="pets-hover__inner">
+                      <p class="pets-hover__info">
+                        Panda’s name is Bei Bei. He
+                        is 2 years old. Bei Bei is from China. He loves bamboos.
+                      </p>
+
+                      <div class="pets-hover__icons">
+
+                        <form class="pets-hover__watch-online" action="./pages/video-block/pandas/index.html">
+                          <button class="pets-hover__btn">
+                            <div class="pets-hover__watch-online_image">
+                              <img src="./assets/comman/hover-icons/watch-icon.png" alt="watch-icon">
+                            </div>
+                            <p>watch&#160;online</p>
+                          </button>
+                        </form>
+
+                        <form class="pets-hover__donate" action="./index.html">
+                          <button class="pets-hover__btn">
+                            <div class="pets-hover__donate_image">
+                              <img src="./assets/comman/hover-icons/donate-icon.png" alt="donate-icon">
+                            </div>
+                            <p>donate</p>
+                          </button>
+                        </form>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pets-carousel__item carousel__item">
+                  <img class="carousel__item_image" src="./assets/pets-carousel/eagle.png" alt="">
+                  <div class="pets-carousel__item_hover pets-hover">
+                    <div class="pets-hover__inner">
+                      <p class="pets-hover__info">
+                        Panda’s name is Bei Bei. He
+                        is 2 years old. Bei Bei is from China. He loves bamboos.
+                      </p>
+
+                      <div class="pets-hover__icons">
+
+                        <form class="pets-hover__watch-online" action="./pages/video-block/pandas/index.html">
+                          <button class="pets-hover__btn">
+                            <div class="pets-hover__watch-online_image">
+                              <img src="./assets/comman/hover-icons/watch-icon.png" alt="watch-icon">
+                            </div>
+                            <p>watch&#160;online</p>
+                          </button>
+                        </form>
+
+                        <form class="pets-hover__donate" action="./index.html">
+                          <button class="pets-hover__btn">
+                            <div class="pets-hover__donate_image">
+                              <img src="./assets/comman/hover-icons/donate-icon.png" alt="donate-icon">
+                            </div>
+                            <p>donate</p>
+                          </button>
+                        </form>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pets-carousel__item carousel__item">
+                  <img class="carousel__item_image" src="./assets/pets-carousel/gorilla.png" alt="">
+                  <div class="pets-carousel__item_hover pets-hover">
+                    <div class="pets-hover__inner">
+                      <p class="pets-hover__info">
+                        Panda’s name is Bei Bei. He
+                        is 2 years old. Bei Bei is from China. He loves bamboos.
+                      </p>
+
+                      <div class="pets-hover__icons">
+
+                        <form class="pets-hover__watch-online" action="./pages/video-block/pandas/index.html">
+                          <button class="pets-hover__btn">
+                            <div class="pets-hover__watch-online_image">
+                              <img src="./assets/comman/hover-icons/watch-icon.png" alt="watch-icon">
+                            </div>
+                            <p>watch&#160;online</p>
+                          </button>
+                        </form>
+
+                        <form class="pets-hover__donate" action="./index.html">
+                          <button class="pets-hover__btn">
+                            <div class="pets-hover__donate_image">
+                              <img src="./assets/comman/hover-icons/donate-icon.png" alt="donate-icon">
+                            </div>
+                            <p>donate</p>
+                          </button>
+                        </form>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pets-carousel__item carousel__item">
+                  <img class="carousel__item_image" src="./assets/pets-carousel/crocodile.png" alt="">
+                  <div class="pets-carousel__item_hover pets-hover">
+                    <div class="pets-hover__inner">
+                      <p class="pets-hover__info">
+                        Panda’s name is Bei Bei. He
+                        is 2 years old. Bei Bei is from China. He loves bamboos.
+                      </p>
+
+                      <div class="pets-hover__icons">
+
+                        <form class="pets-hover__watch-online" action="./pages/video-block/pandas/index.html">
+                          <button class="pets-hover__btn">
+                            <div class="pets-hover__watch-online_image">
+                              <img src="./assets/comman/hover-icons/watch-icon.png" alt="watch-icon">
+                            </div>
+                            <p>watch&#160;online</p>
+                          </button>
+                        </form>
+
+                        <form class="pets-hover__donate" action="./index.html">
+                          <button class="pets-hover__btn">
+                            <div class="pets-hover__donate_image">
+                              <img src="./assets/comman/hover-icons/donate-icon.png" alt="donate-icon">
+                            </div>
+                            <p>donate</p>
+                          </button>
+                        </form>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pets-carousel__item carousel__item">
+                  <img class="carousel__item_image" src="./assets/pets-carousel/fox.png" alt="">
+                  <div class="pets-carousel__item_hover pets-hover">
+                    <div class="pets-hover__inner">
+                      <p class="pets-hover__info">
+                        Panda’s name is Bei Bei. He
+                        is 2 years old. Bei Bei is from China. He loves bamboos.
+                      </p>
+
+                      <div class="pets-hover__icons">
+
+                        <form class="pets-hover__watch-online" action="./pages/video-block/pandas/index.html">
+                          <button class="pets-hover__btn">
+                            <div class="pets-hover__watch-online_image">
+                              <img src="./assets/comman/hover-icons/watch-icon.png" alt="watch-icon">
+                            </div>
+                            <p>watch&#160;online</p>
+                          </button>
+                        </form>
+
+                        <form class="pets-hover__donate" action="./index.html">
+                          <button class="pets-hover__btn">
+                            <div class="pets-hover__donate_image">
+                              <img src="./assets/comman/hover-icons/donate-icon.png" alt="donate-icon">
+                            </div>
+                            <p>donate</p>
+                          </button>
+                        </form>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pets-carousel__item carousel__item">
+                  <img class="carousel__item_image" src="./assets/pets-carousel/sloth.png" alt="">
+                  <div class="pets-carousel__item_hover pets-hover">
+                    <div class="pets-hover__inner">
+                      <p class="pets-hover__info">
+                        Panda’s name is Bei Bei. He
+                        is 2 years old. Bei Bei is from China. He loves bamboos.
+                      </p>
+
+                      <div class="pets-hover__icons">
+
+                        <form class="pets-hover__watch-online" action="./pages/video-block/pandas/index.html">
+                          <button class="pets-hover__btn">
+                            <div class="pets-hover__watch-online_image">
+                              <img src="./assets/comman/hover-icons/watch-icon.png" alt="watch-icon">
+                            </div>
+                            <p>watch&#160;online</p>
+                          </button>
+                        </form>
+
+                        <form class="pets-hover__donate" action="./index.html">
+                          <button class="pets-hover__btn">
+                            <div class="pets-hover__donate_image">
+                              <img src="./assets/comman/hover-icons/donate-icon.png" alt="donate-icon">
+                            </div>
+                            <p>donate</p>
+                          </button>
+                        </form>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pets-carousel__item carousel__item">
+                  <img class="carousel__item_image" src="./assets/pets-carousel/elephant.png" alt="">
+                  <div class="pets-carousel__item_hover pets-hover">
+                    <div class="pets-hover__inner">
+                      <p class="pets-hover__info">
+                        Panda’s name is Bei Bei. He
+                        is 2 years old. Bei Bei is from China. He loves bamboos.
+                      </p>
+
+                      <div class="pets-hover__icons">
+
+                        <form class="pets-hover__watch-online" action="./pages/video-block/pandas/index.html">
+                          <button class="pets-hover__btn">
+                            <div class="pets-hover__watch-online_image">
+                              <img src="./assets/comman/hover-icons/watch-icon.png" alt="watch-icon">
+                            </div>
+                            <p>watch&#160;online</p>
+                          </button>
+                        </form>
+
+                        <form class="pets-hover__donate" action="./index.html">
+                          <button class="pets-hover__btn">
+                            <div class="pets-hover__donate_image">
+                              <img src="./assets/comman/hover-icons/donate-icon.png" alt="donate-icon">
+                            </div>
+                            <p>donate</p>
+                          </button>
+                        </form>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pets-carousel__item carousel__item">
+                  <img class="carousel__item_image" src="./assets/pets-carousel/leopard.png" alt="">
+                  <div class="pets-carousel__item_hover pets-hover">
+                    <div class="pets-hover__inner">
+                      <p class="pets-hover__info">
+                        Panda’s name is Bei Bei. He
+                        is 2 years old. Bei Bei is from China. He loves bamboos.
+                      </p>
+
+                      <div class="pets-hover__icons">
+
+                        <form class="pets-hover__watch-online" action="./pages/video-block/pandas/index.html">
+                          <button class="pets-hover__btn">
+                            <div class="pets-hover__watch-online_image">
+                              <img src="./assets/comman/hover-icons/watch-icon.png" alt="watch-icon">
+                            </div>
+                            <p>watch&#160;online</p>
+                          </button>
+                        </form>
+
+                        <form class="pets-hover__donate" action="./index.html">
+                          <button class="pets-hover__btn">
+                            <div class="pets-hover__donate_image">
+                              <img src="./assets/comman/hover-icons/donate-icon.png" alt="donate-icon">
+                            </div>
+                            <p>donate</p>
+                          </button>
+                        </form>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="pets-carousel__control pets-carousel__rightControl">
+              <div class="carousel__arrow carousel__rightArrow">
+                <img src="assets/comman/right-arrow.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="pets__rageNumber carousel__rageNumber">
+            <p class="pets__rageNumber_current carousel__rageNumber_current">0</p>
+            /
+            <p class="pets__rageNumber_inAll carousel__rageNumber_inAll">9</p>
+          </div>
+
+          <input class="pets__rage-input carousel__rage-input" type="range" min="1" max="8" step="1" value="1">
+        </section>
+        <form action="./pages/map-block/index.html">
+          <button class="choose-your-favorite-btn button">
+            <p>Choose your favorite</p>
+          </button>
+        </form>
+      </div>
+    </article>
+
+    <article class="pay__block gray-background">
+      <div class="content">
+        <section class="pay__info">
+          <h2>Pay and feed</h2>
+          <p>
+            The opportunity to easily and naturally (but as often as possible) donate to the needs of
+            animals that you like.
+          </p>
+        </section>
+
+        <section class="pay__items">
+          <div class="pay__item">
+            <img src="assets/card/Visa.png" alt="">
+            <p>
+              You&#160pay&#160with&#160a
+              VISA&#160card
+            </p>
+          </div>
+          <div class="pay__item_arrow"></div>
+          <div class="pay__item">
+            <img src="assets/card/Zoo.png" alt="">
+            <p>
+              Payment&#160goes
+              to&#160the&#160Zoo
+            </p>
+          </div>
+          <div class="pay__item_arrow"></div>
+          <div class="pay__item">
+            <img src="assets/card/Panda.png" alt="">
+            <p>
+              Panda&#160gets
+              the&#160bamboo
+            </p>
+          </div>
+        </section>
+        <!-- <form class="pay__form" action=""> -->
+        <!-- nead to uncomment form and add action when the task will be -->
+        <button class="pay__donate-btn button">
+          <p>donate</p>
+        </button>
+        <!-- </form> -->
+      </div>
+    </article>
+
+    <article class="review-block">
+      <div class="content">
+        <h2 class="review-block__name">testimonials</h2>
+        <section class="carousel review-carousel">
+          <div class="carousel__withBtns">
+            <div class="review-carousel__control review-carousel__leftControl carousel__arrow_disabled">
+              <div class="carousel__arrow carousel__leftArrow">
+                <img src="assets/comman/left-arrow.png" alt="">
+              </div>
+            </div>
+
+            <div class="review-carousel__items-view carousel__items-view">
+              <div class="review-carousel__items-line carousel__items-line">
+
+                <div class="review-carousel__item carousel__item">
+                  <div class="review-carousel__item-inner">
+                    <div>
+                      <img src="./assets/review_carousel/unknown-user.png" alt="">
+                    </div>
+                    <h3>Nastya&#160;Sidorova</h3>
+                    <p>As a voice for wildlife, we are devastated by the impact of the 2020
+                      Australian
+                      bushfires on precious species and their habitat.</p>
+                  </div>
+                  <div class="review-carousel__item-inner">
+                    <div>
+                      <img src="./assets/review_carousel/unknown-user.png" alt="">
+                    </div>
+                    <h3>Nastya&#160;Sidorova</h3>
+                    <p>As a voice for wildlife, we are devastated by the impact of the 2020
+                      Australian
+                      bushfires on precious species and their habitat.</p>
+                  </div>
+                </div>
+                <div class="review-carousel__item carousel__item">
+                  <div class="review-carousel__item-inner">
+                    <div>
+                      <img src="./assets/review_carousel/unknown-user.png" alt="">
+                    </div>
+                    <h3>Nastya&#160;Sidorova</h3>
+                    <p>As a voice for wildlife, we are devastated by the impact of the 2020
+                      Australian
+                      bushfires on precious species and their habitat.</p>
+                  </div>
+                  <div class="review-carousel__item-inner">
+                    <div>
+                      <img src="./assets/review_carousel/unknown-user.png" alt="">
+                    </div>
+                    <h3>Nastya&#160;Sidorova</h3>
+                    <p>As a voice for wildlife, we are devastated by the impact of the 2020
+                      Australian
+                      bushfires on precious species and their habitat.</p>
+                  </div>
+                </div>
+                <div class="review-carousel__item carousel__item">
+                  <div class="review-carousel__item-inner">
+                    <div>
+                      <img src="./assets/review_carousel/unknown-user.png" alt="">
+                    </div>
+                    <h3>Nastya&#160;Sidorova</h3>
+                    <p>As a voice for wildlife, we are devastated by the impact of the 2020
+                      Australian
+                      bushfires on precious species and their habitat.</p>
+                  </div>
+                  <div class="review-carousel__item-inner">
+                    <div>
+                      <img src="./assets/review_carousel/unknown-user.png" alt="">
+                    </div>
+                    <h3>Nastya&#160;Sidorova</h3>
+                    <p>As a voice for wildlife, we are devastated by the impact of the 2020
+                      Australian
+                      bushfires on precious species and their habitat.</p>
+                  </div>
+                </div>
+                <div class="review-carousel__item carousel__item">
+                  <div class="review-carousel__item-inner">
+                    <div>
+                      <img src="./assets/review_carousel/unknown-user.png" alt="">
+                    </div>
+                    <h3>Nastya&#160;Sidorova</h3>
+                    <p>As a voice for wildlife, we are devastated by the impact of the 2020
+                      Australian
+                      bushfires on precious species and their habitat.</p>
+                  </div>
+                  <div class="review-carousel__item-inner">
+                    <div>
+                      <img src="./assets/review_carousel/unknown-user.png" alt="">
+                    </div>
+                    <h3>Nastya&#160;Sidorova</h3>
+                    <p>As a voice for wildlife, we are devastated by the impact of the 2020
+                      Australian
+                      bushfires on precious species and their habitat.</p>
+                  </div>
+                </div>
+                <div class="review-carousel__item carousel__item">
+                  <div class="review-carousel__item-inner">
+                    <div>
+                      <img src="./assets/review_carousel/unknown-user.png" alt="">
+                    </div>
+                    <h3>Nastya&#160;Sidorova</h3>
+                    <p>As a voice for wildlife, we are devastated by the impact of the 2020
+                      Australian
+                      bushfires on precious species and their habitat.</p>
+                  </div>
+                  <div class="review-carousel__item-inner">
+                    <div>
+                      <img src="./assets/review_carousel/unknown-user.png" alt="">
+                    </div>
+                    <h3>Nastya&#160;Sidorova</h3>
+                    <p>As a voice for wildlife, we are devastated by the impact of the 2020
+                      Australian
+                      bushfires on precious species and their habitat.</p>
+                  </div>
+                </div>
+                <div class="review-carousel__item carousel__item">
+                  <div class="review-carousel__item-inner">
+                    <div>
+                      <img src="./assets/review_carousel/unknown-user.png" alt="">
+                    </div>
+                    <h3>Nastya&#160;Sidorova</h3>
+                    <p>As a voice for wildlife, we are devastated by the impact of the 2020
+                      Australian
+                      bushfires on precious species and their habitat.</p>
+                  </div>
+                  <div class="review-carousel__item-inner">
+                    <div>
+                      <img src="./assets/review_carousel/unknown-user.png" alt="">
+                    </div>
+                    <h3>Nastya&#160;Sidorova</h3>
+                    <p>As a voice for wildlife, we are devastated by the impact of the 2020
+                      Australian
+                      bushfires on precious species and their habitat.</p>
+                  </div>
+                </div>
+                <div class="review-carousel__item carousel__item">
+                  <div class="review-carousel__item-inner">
+                    <div>
+                      <img src="./assets/review_carousel/unknown-user.png" alt="">
+                    </div>
+                    <h3>Nastya&#160;Sidorova</h3>
+                    <p>As a voice for wildlife, we are devastated by the impact of the 2020
+                      Australian
+                      bushfires on precious species and their habitat.</p>
+                  </div>
+                  <div class="review-carousel__item-inner">
+                    <div>
+                      <img src="./assets/review_carousel/unknown-user.png" alt="">
+                    </div>
+                    <h3>Nastya&#160;Sidorova</h3>
+                    <p>As a voice for wildlife, we are devastated by the impact of the 2020
+                      Australian
+                      bushfires on precious species and their habitat.</p>
+                  </div>
+                </div>
+                <div class="review-carousel__item carousel__item">
+                  <div class="review-carousel__item-inner">
+                    <div>
+                      <img src="./assets/review_carousel/unknown-user.png" alt="">
+                    </div>
+                    <h3>Nastya&#160;Sidorova</h3>
+                    <p>As a voice for wildlife, we are devastated by the impact of the 2020
+                      Australian
+                      bushfires on precious species and their habitat.</p>
+                  </div>
+                  <div class="review-carousel__item-inner">
+                    <div>
+                      <img src="./assets/review_carousel/unknown-user.png" alt="">
+                    </div>
+                    <h3>Nastya&#160;Sidorova</h3>
+                    <p>As a voice for wildlife, we are devastated by the impact of the 2020
+                      Australian
+                      bushfires on precious species and their habitat.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="review-carousel__control review-carousel__rightControl">
+              <div class="carousel__arrow carousel__rightArrow">
+                <img src="assets/comman/right-arrow.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="review__rageNumber carousel__rageNumber">
+            <p class="review__rageNumber_current carousel__rageNumber_current">0</p>
+            /
+            <p class="review__rageNumber_inAll carousel__rageNumber_inAll">9</p>
+          </div>
+
+          <input class="review__rage-input carousel__rage-input" type="range" min="1" max="8" step="1" value="1">
+        </section>
+
+        <!-- <form class="review__form" action=""> -->
+        <!-- nead to uncomment form and add action when the task will be -->
+        <button class="review__btn button">
+          <p>leave feedback</p>
+        </button>
+        <!-- </form> -->
+
+
+      </div>
+    </article>
+
+    <article class="map gray-background">
+      <div class="content ">
+        <div class="map-background"></div>
+        <h2>Map</h2>
+        <section class="map__map">
+          <div class="map__item_with-pop map__eagle-with-pop">
+            <div title="eagle" class="map__pointer map__pointer_eagle">
+              <img class="map__pointer_amimal" src="assets/map/eagle.png" alt="eagle">
+            </div>
+            <div class="map__pop-up map__pop-up_eagle">
+              <img src="assets/map/eagle.png" alt="">
+              <div class="map__pop-up_info">
+                <h3>West End Bald Eagle</h3>
+                <div> <b>Region</b>: <span> on an island near Los Angeles </span></div>
+                <div> <b>Population</b>: <span> more than 270 pairs in 2013 </span></div>
+                <button class="map__pop-up_btn">
+                  <img src="./assets/comman/play-icon.png" alt="play-icon">
+                  <p>Whatch online</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="map__item_with-pop map__crocodile-with-pop">
+            <div title="crocodile" class="map__pointer map__pointer_crocodile">
+              <img class="map__pointer_amimal" src="assets/map/crocodile.png" alt="crocodile">
+            </div>
+            <div class="map__pop-up map__pop-up_crocodile">
+              <img src="assets/map/crocodile.png" alt="">
+              <div class="map__pop-up_info">
+                <h3>West End Bald Eagle</h3>
+                <div> <b>Region</b>: <span> on an island near Los Angeles </span></div>
+                <div> <b>Population</b>: <span> more than 270 pairs in 2013 </span></div>
+                <button class="map__pop-up_btn">
+                  <img src="./assets/comman/play-icon.png" alt="play-icon">
+                  <p>Whatch online</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="map__item_with-pop map__gorilla-with-pop">
+            <div title="gorilla" class="map__pointer map__pointer_gorilla">
+              <img class="map__pointer_amimal" src="assets/map/gorilla.png" alt="gorilla">
+            </div>
+            <div class="map__pop-up map__pop-up_gorilla">
+              <img src="assets/map/gorilla.png" alt="">
+              <div class="map__pop-up_info">
+                <h3>West End Bald Eagle</h3>
+                <div> <b>Region</b>: <span> on an island near Los Angeles </span></div>
+                <div> <b>Population</b>: <span> more than 270 pairs in 2013 </span></div>
+                <button class="map__pop-up_btn">
+                  <img src="./assets/comman/play-icon.png" alt="play-icon">
+                  <p>Whatch online</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="map__item_with-pop map__panda-with-pop">
+            <div title="panda" class="map__pointer map__pointer_panda">
+              <img class="map__pointer_amimal" src="assets/map/panda.png" alt="panda">
+            </div>
+            <div class="map__pop-up map__pop-up_panda">
+              <img src="assets/map/panda.png" alt="">
+              <div class="map__pop-up_info">
+                <h3>West End Bald Eagle</h3>
+                <div> <b>Region</b>: <span> on an island near Los Angeles </span></div>
+                <div> <b>Population</b>: <span> more than 270 pairs in 2013 </span></div>
+                <button class="map__pop-up_btn">
+                  <img src="./assets/comman/play-icon.png" alt="play-icon">
+                  <p>Whatch online</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <form action="./pages/video-block/pandas/index.html">
+          <button class="map__watch-btn button">
+            <img src="assets/comman/play-icon.png" alt="">
+            <p> watch online</p>
+          </button>
+        </form>
+      </div>
+
+    </article>
+  </main>
+
+  <footer class="footer">
+    <a name="footer-anchor"></a>
+    <div class="content">
+      <div class="footer__inner">
+        <article class="footer__contact-us footer__item">
+          <section class="footer__contact-us_logo">
+            <a href="./index.html">
+              <h2>zoo</h2>
+              <p>online</p>
+            </a>
+          </section>
+          <section class="footer__contact_form-block">
+            <h3>Contact us</h3>
+            <form class="footer__form" action="">
+              <div class="footer__inputs">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <fieldset class="footer__contact_textArea">
+                  <textarea maxlength='280' name="" cols="30" rows="5" required></textarea>
+                  <legend>Please enter your message</legend>
+                </fieldset>
+                <fieldset class="footer__contact_checkBox">
+                  <input type="checkbox" id="footer__checkbox" required>
+                  <label required class="footer__checkbox_label" for="footer__checkbox">I agree to the processing of
+                    Personal Data
+                  </label>
+                </fieldset>
+              </div>
+              <div class="footer__send-btn-form">
+                <input type="submit" id="footer__send-btn">
+                <label class="footer__send-btn_label" for="footer__send-btn">
+                  <p>send</p>
+                  <img src="./assets/card/footer-arrow.png" alt="">
+                </label>
+              </div>
+            </form>
+          </section>
+        </article>
+        <article class="footer__info footer__item">
+          <section class="footer__navigation">
+            <nav class="footer__navigation_nav">
+              <ul>
+                <li>
+                  <a href="./index.html">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="./pages/video-block/pandas/index.html">
+                    Zoos
+                  </a>
+                </li>
+                <li>
+                  <a href="./pages/map-block/index.html">
+                    Map
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">
+                    Design
+                  </a>
+                </li>
+              </ul>
+
+            </nav>
+            <button class="footer__donate-btn button">
+              donate for volunteers
+            </button>
+          </section>
+          <section class="footer__contacts">
+            <a href="./index.html">
+              <h3 title="Online Zoo, Yem Digital, Rolling Scopes School">zoo online center</h3>
+            </a>
+            <address>
+              <div class="footer__contacts_adresses">
+                <p>132, Address District, Street</p> <br>
+                <p>Open Daily 10:00 am - 5:00 pm</p>
+              </div>
+              <div class="footer__contacts_phones">
+                <p class="footer__contacts_phone"> <a href="tel:(702)1633433"> T(702) 163-3433 </a> </p>
+                <p class="footer__contacts_email"> <a href="mailto:zoo.online@gmail.com">zoo.online@gmail.com</a></p>
+              </div>
+            </address>
+            <div class="footer__info_social">
+              <ul>
+                <li>
+                  <a href="https://www.instagram.com/burhanovgd/">
+                    <img src="./assets/social_net/instagram.png" alt="instagram">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/">
+                    <img src="./assets/social_net/twitter.png" alt="twitter">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://vk.com/burhanovgd">
+                    <img src="./assets/social_net/vk.png" alt="vk">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/">
+                    <img src="./assets/social_net/youtube.png" alt="youtube">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </article>
+      </div>
+      <div class="footer__line">
+        <div></div>
+      </div>
+      <div class="footer__after-line">
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
